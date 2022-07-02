@@ -1,0 +1,30 @@
+{
+    "name": "Telegram RAW Update Bot",
+    "description": "Get the raw update of telegram in second",
+    "keywords": [
+        "NasirHossainAkash",
+        "telegram",
+        "bot"
+    ],
+    "website": "https://primeakash.xyz/",
+    "repository": "https://github.com/NasirHossainAkash/Telegram-Raw-Update-Bot",
+    "logo": "https://avatars.githubusercontent.com/u/79259896?v=4",
+    "env": {
+        "API_ID": {
+            "description": "You Telegram API_ID."
+        },
+        "API_HASH": {
+            "description": "Your Telegram API_HASH."
+        },
+        "BOT_TOKEN": {
+            "description": "Your Telegram BOT_TOKEN"
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "heroku-20"
+}
