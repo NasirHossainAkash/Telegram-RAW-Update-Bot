@@ -30,7 +30,7 @@ async def raw_handler(client, message):
     logging.info("raw update handler executed")
     await client.send_message(
         chat_id=message.from_user.id,
-        text=f"**Telegram RAW Update**\n\n```{message}```\n\n**✅Developed By: @PrimeAkash**",
+        text=f"**📂Telegram RAW Update**\n\n```{message}```\n\n**✅Developed By: @PrimeAkash**",
     )
     logging.info(f"{message.from_user.first_name} got the raw update")
 
