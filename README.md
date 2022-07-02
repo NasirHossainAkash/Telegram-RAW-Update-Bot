@@ -18,7 +18,7 @@ A Telegram bot to get all the telegram update
 
 ## Screenshots
 
-![](https://i.ibb.co/kD95NhS/image-2022-07-02-22-01-17.png)
+![Screenshot](https://i.ibb.co/kD95NhS/image-2022-07-02-22-01-17.png)
 
 
 ## Environment Variables
